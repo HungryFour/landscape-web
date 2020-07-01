@@ -6,12 +6,57 @@ Vue.use(VueRouter);
 
 Vue.config.productionTip = false;
 
-import Index from './components/Index'
+import Index from './pages/Index'
+import TVC from './pages/Tvc'
+import Animation from './pages/Animation'
+import Activity from './pages/Activity'
+import AboutUs from './pages/AboutUs'
+import News from './pages/News'
 
 const routes = [
   {
     path: '/home',
     component: Index,
+    meta: {
+      keepAlive: true,
+      title: "popmart"
+    },
+  },
+  {
+    path: '/tvc',
+    component: TVC,
+    meta: {
+      keepAlive: true,
+      title: "popmart"
+    },
+  },
+  {
+    path: '/animation',
+    component: Animation,
+    meta: {
+      keepAlive: true,
+      title: "popmart"
+    },
+  },
+  {
+    path: '/activity',
+    component: Activity,
+    meta: {
+      keepAlive: true,
+      title: "popmart"
+    },
+  },
+  {
+    path: '/aboutUs',
+    component: AboutUs,
+    meta: {
+      keepAlive: true,
+      title: "popmart"
+    },
+  },
+  {
+    path: '/news',
+    component: News,
     meta: {
       keepAlive: true,
       title: "popmart"
@@ -33,7 +78,6 @@ router.beforeEach((to, from, next) => {
     next('/home');
     return;
   }
-  console.log("----wo zou l me");
   next();
 });
 
