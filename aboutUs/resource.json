@@ -1,65 +1,61 @@
-/**
- * 技术信息：资源信息
- * 请参考: https://bazhan.me/faq
-*/
 {
     "success": [
         {
-            "url": "http://www.huazhangmedia.com/index/index/aboutme/",
+            "url": "http://www.huazhangmedia.com/aboutUs/",
             "path": "index.html",
             "children": [
                 {
-                    "url": "http://www.huazhangmedia.com/html/index_files/footer_bg.png",
+                    "url": "http://www.huazhangmedia.com/aboutUs/images/footer_bg.png",
                     "path": "images/footer_bg.png",
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/html/index_files/1538152069.png",
+                    "url": "http://www.huazhangmedia.com/aboutUs/images/1538152069.png",
                     "path": "images/1538152069.png",
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/html/index_files/1538211733.png",
+                    "url": "http://www.huazhangmedia.com/aboutUs/images/1538211733.png",
                     "path": "images/1538211733.png",
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/html/index_files/1538212066.png",
+                    "url": "http://www.huazhangmedia.com/aboutUs/images/1538212066.png",
                     "path": "images/1538212066.png",
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/assets/img/about_banner.png",
+                    "url": "http://www.huazhangmedia.com/aboutUs/images/about_banner.png",
                     "path": "images/about_banner.png",
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/html/about_files/1538192407.jpg",
+                    "url": "http://www.huazhangmedia.com/aboutUs/images/1538192407.jpg",
                     "path": "images/1538192407.jpg",
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/html/about_files/1538194510.jpg",
+                    "url": "http://www.huazhangmedia.com/aboutUs/images/1538194510.jpg",
                     "path": "images/1538194510.jpg",
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/assets/img/t-1.png",
+                    "url": "http://www.huazhangmedia.com/aboutUs/images/t-1.png",
                     "path": "images/t-1.png",
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/assets/img/t-2.png",
+                    "url": "http://www.huazhangmedia.com/aboutUs/images/t-2.png",
                     "path": "images/t-2.png",
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/assets/img/t-3.png",
+                    "url": "http://www.huazhangmedia.com/aboutUs/images/t-3.png",
                     "path": "images/t-3.png",
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/html/index_files/qrcode.png",
+                    "url": "http://www.huazhangmedia.com/aboutUs/images/qrcode.png",
                     "path": "images/qrcode.png",
                     "children": []
                 },
@@ -69,53 +65,53 @@
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/html/index_files/basic.js",
+                    "url": "http://www.huazhangmedia.com/js/basic.js",
                     "path": "js/basic.js",
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/html/news_files/news_cn.js",
+                    "url": "http://www.huazhangmedia.com/js/news_cn.js",
                     "path": "js/news_cn.js",
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/html/news_files/lang_json_cn.js",
+                    "url": "http://www.huazhangmedia.com/js/lang_json_cn.js",
                     "path": "js/lang_json_cn.js",
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/html/about_files/show_cn.css",
+                    "url": "http://www.huazhangmedia.com/js/show_cn.css",
                     "path": "css/show_cn.css",
                     "children": []
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/html/index_files/basic.css",
+                    "url": "http://www.huazhangmedia.com/js/basic.css",
                     "path": "css/basic.css",
                     "children": [
                         {
-                            "url": "http://www.huazhangmedia.com/html/fonts/web-icons/web-icons.woff2?v=0.2.3",
+                            "url": "http://www.huazhangmedia.com/fonts/web-icons.woff2?v=0.2.3",
                             "path": "fonts/web-icons.woff2",
                             "children": []
                         },
                         {
-                            "url": "http://www.huazhangmedia.com/html/fonts/font-awesome/fontawesome-webfont.woff2?v=4.7.0",
+                            "url": "http://www.huazhangmedia.com/fonts/fontawesome-webfont.woff2?v=4.7.0",
                             "path": "fonts/fontawesome-webfont.woff2",
                             "children": []
                         },
                         {
-                            "url": "http://www.huazhangmedia.com/html/fonts/font-awesome/fontawesome-webfont.woff?v=4.7.0",
+                            "url": "http://www.huazhangmedia.com/fonts/fontawesome-webfont.woff?v=4.7.0",
                             "path": "fonts/fontawesome-webfont.woff",
                             "children": []
                         },
                         {
-                            "url": "http://www.huazhangmedia.com/html/fonts/font-awesome/fontawesome-webfont.ttf?v=4.7.0",
+                            "url": "http://www.huazhangmedia.com/fonts/fontawesome-webfont.ttf?v=4.7.0",
                             "path": "fonts/fontawesome-webfont.ttf",
                             "children": []
                         }
                     ]
                 },
                 {
-                    "url": "http://www.huazhangmedia.com/html/news_files/news_cn.css",
+                    "url": "http://www.huazhangmedia.com/js/news_cn.css",
                     "path": "css/news_cn.css",
                     "children": []
                 },
