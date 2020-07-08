@@ -1,0 +1,48 @@
+/**
+ * 技术信息：请求参数
+ * 请参考: https://bazhan.me/faq
+*/
+{
+    "directory": "www-huazhangmedia-com-2a40091a",
+    "options": {
+        "url": "http://www.huazhangmedia.com/index/index/action/",
+        "ipaddress": "111.229.55.169",
+        "domain": "www.huazhangmedia.com",
+        "request": {
+            "headers": {
+                "Accept": "text/html,*/*",
+                "Accept-language": "zh-CN,zh;q=0.9",
+                "Accept-Encoding": "gzip",
+                "Cache-control": "no-cache",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "X-Scraper-WebSite": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "server": "nginx",
+                "date": "Mon, 06 Jul 2020 14:25:17 GMT",
+                "content-type": "text/html; charset=utf-8",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "vary": "Accept-Encoding",
+                "content-encoding": "gzip"
+            }
+        }
+    },
+    "formatter": {
+        "css": true,
+        "html": true,
+        "javascript": true,
+        "save-original": true
+    },
+    "user": {
+        "isWhite": false
+    },
+    "time": {
+        "start": 1594045517008,
+        "end": 1594045536087,
+        "spend": "19.079s"
+    }
+}

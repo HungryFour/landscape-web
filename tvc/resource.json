@@ -1,0 +1,162 @@
+/**
+ * 技术信息：资源信息
+ * 请参考: https://bazhan.me/faq
+*/
+{
+    "success": [
+        {
+            "url": "http://www.huazhangmedia.com/index/index/tvc/",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "http://www.huazhangmedia.com/html/index_files/footer_bg.png",
+                    "path": "images/footer_bg.png",
+                    "children": []
+                },
+                {
+                    "url": "http://www.huazhangmedia.com/html/index_files/1538152069.png",
+                    "path": "images/1538152069.png",
+                    "children": []
+                },
+                {
+                    "url": "http://www.huazhangmedia.com/html/index_files/1538211733.png",
+                    "path": "images/1538211733.png",
+                    "children": []
+                },
+                {
+                    "url": "http://www.huazhangmedia.com/html/index_files/1538212066.png",
+                    "path": "images/1538212066.png",
+                    "children": []
+                },
+                {
+                    "url": "http://www.huazhangmedia.com/assets/img/tv_banner.png",
+                    "path": "images/tv_banner.png",
+                    "children": []
+                },
+                {
+                    "url": "http://www.huazhangmedia.com/html/index_files/1538206717.jpg",
+                    "path": "images/1538206717.jpg",
+                    "children": []
+                },
+                {
+                    "url": "http://www.huazhangmedia.com/uploads/20200626/3aa4bf734d4af9d4101c4372aa430a0d.png",
+                    "path": "images/3aa4bf734d4af9d4101c4372aa430a0d.png",
+                    "children": []
+                },
+                {
+                    "url": "http://www.huazhangmedia.com/assets/img/tv_footer.png",
+                    "path": "images/tv_footer.png",
+                    "children": []
+                },
+                {
+                    "url": "http://www.huazhangmedia.com/html/index_files/qrcode.png",
+                    "path": "images/qrcode.png",
+                    "children": []
+                },
+                {
+                    "url": "http://www.huazhangmedia.com/html/index_files/basic.js",
+                    "path": "js/basic.js",
+                    "children": []
+                },
+                {
+                    "url": "http://www.huazhangmedia.com/html/news_files/news_cn.js",
+                    "path": "js/news_cn.js",
+                    "children": []
+                },
+                {
+                    "url": "http://www.huazhangmedia.com/html/news_files/lang_json_cn.js",
+                    "path": "js/lang_json_cn.js",
+                    "children": []
+                },
+                {
+                    "url": "http://www.huazhangmedia.com/html/index_files/index_cn.css",
+                    "path": "../css/index_cn.css",
+                    "children": [
+                        {
+                            "url": "http://www.huazhangmedia.com/upload/201809/1538207849.jpg",
+                            "path": "images/1538207849.jpg",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "url": "http://www.huazhangmedia.com/html/index_files/basic.css",
+                    "path": "css/basic.css",
+                    "children": [
+                        {
+                            "url": "http://www.huazhangmedia.com/html/fonts/web-icons/web-icons.woff2?v=0.2.3",
+                            "path": "fonts/web-icons.woff2",
+                            "children": []
+                        },
+                        {
+                            "url": "http://www.huazhangmedia.com/html/fonts/font-awesome/fontawesome-webfont.woff2?v=4.7.0",
+                            "path": "fonts/fontawesome-webfont.woff2",
+                            "children": []
+                        },
+                        {
+                            "url": "http://www.huazhangmedia.com/html/fonts/font-awesome/fontawesome-webfont.woff?v=4.7.0",
+                            "path": "fonts/fontawesome-webfont.woff",
+                            "children": []
+                        },
+                        {
+                            "url": "http://www.huazhangmedia.com/html/fonts/font-awesome/fontawesome-webfont.ttf?v=4.7.0",
+                            "path": "fonts/fontawesome-webfont.ttf",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "url": "http://www.huazhangmedia.com/html/news_files/news_cn.css",
+                    "path": "css/news_cn.css",
+                    "children": []
+                },
+                {
+                    "url": "https://show.91mb.com.cn/mui334/favicon.ico",
+                    "path": "favicon.ico",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "failures": [
+        "http://www.huazhangmedia.com/public/ui/v2/static/fonts/iconfont/iconfont.eot?t=1497855280632",
+        "http://www.huazhangmedia.com/public/ui/v2/static/fonts/iconfont/iconfont.eot?t=1497855280632#iefix",
+        "http://www.huazhangmedia.com/public/ui/v2/static/fonts/iconfont/iconfont.woff?t=1497855280632",
+        "http://www.huazhangmedia.com/public/ui/v2/static/fonts/iconfont/iconfont.ttf?t=1497855280632",
+        "http://www.huazhangmedia.com/public/ui/v2/static/fonts/iconfont/iconfont.svg?t=1497855280632#iconfont",
+        "http://www.huazhangmedia.com/app/system/include/static2/fonts/7-stroke/Pe-icon-7-stroke.eot?d7yf1v",
+        "http://www.huazhangmedia.com/app/system/include/static2/fonts/7-stroke/Pe-icon-7-stroke.eot?#iefixd7yf1v",
+        "http://www.huazhangmedia.com/app/system/include/static2/fonts/7-stroke/Pe-icon-7-stroke.woff?d7yf1v",
+        "http://www.huazhangmedia.com/app/system/include/static2/fonts/7-stroke/Pe-icon-7-stroke.ttf?d7yf1v",
+        "http://www.huazhangmedia.com/app/system/include/static2/fonts/7-stroke/Pe-icon-7-stroke.svg?d7yf1v#Pe-icon-7-stroke",
+        "http://www.huazhangmedia.com/public/ui/v2/static/plugin/slick/ajax-loader.gif",
+        "http://www.huazhangmedia.com/public/ui/v2/static/plugin/slick/fonts/slick.eot",
+        "http://www.huazhangmedia.com/public/ui/v2/static/plugin/slick/fonts/slick.eot?#iefix",
+        "http://www.huazhangmedia.com/public/ui/v2/static/plugin/slick/fonts/slick.woff",
+        "http://www.huazhangmedia.com/public/ui/v2/static/plugin/slick/fonts/slick.ttf",
+        "http://www.huazhangmedia.com/public/ui/v2/static/plugin/slick/fonts/slick.svg#slick",
+        "http://www.huazhangmedia.com/html/img/mcsb_buttons.png",
+        "http://www.huazhangmedia.com/html/ui/banner/met_21_4/img/jiantou.png",
+        "http://www.huazhangmedia.com/html/fonts/web-icons/web-icons.eot?v=0.2.3",
+        "http://www.huazhangmedia.com/html/fonts/web-icons/web-icons.eot?#iefix&v=0.2.3",
+        "http://www.huazhangmedia.com/html/fonts/web-icons/web-icons.woff?v=0.2.3",
+        "http://www.huazhangmedia.com/html/fonts/web-icons/web-icons.ttf?v=0.2.3",
+        "http://www.huazhangmedia.com/html/fonts/web-icons/web-icons.svg?v=0.2.3#web-icons",
+        "http://www.huazhangmedia.com/html/fonts/font-awesome/fontawesome-webfont.eot?v=4.7.0",
+        "http://www.huazhangmedia.com/html/fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.7.0",
+        "http://www.huazhangmedia.com/html/fonts/font-awesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular",
+        "http://www.huazhangmedia.com/public/ui/v2/static/fonts/iconfont/iconfont.eot?t=1497855280632",
+        "http://www.huazhangmedia.com/public/ui/v2/static/fonts/iconfont/iconfont.eot?t=1497855280632#iefix",
+        "http://www.huazhangmedia.com/public/ui/v2/static/fonts/iconfont/iconfont.woff?t=1497855280632",
+        "http://www.huazhangmedia.com/public/ui/v2/static/fonts/iconfont/iconfont.ttf?t=1497855280632",
+        "http://www.huazhangmedia.com/public/ui/v2/static/fonts/iconfont/iconfont.svg?t=1497855280632#iconfont",
+        "http://www.huazhangmedia.com/public/ui/v2/static/plugin/slick/ajax-loader.gif",
+        "http://www.huazhangmedia.com/public/ui/v2/static/plugin/slick/fonts/slick.eot",
+        "http://www.huazhangmedia.com/public/ui/v2/static/plugin/slick/fonts/slick.eot?#iefix",
+        "http://www.huazhangmedia.com/public/ui/v2/static/plugin/slick/fonts/slick.woff",
+        "http://www.huazhangmedia.com/public/ui/v2/static/plugin/slick/fonts/slick.ttf",
+        "http://www.huazhangmedia.com/public/ui/v2/static/plugin/slick/fonts/slick.svg#slick",
+        "http://www.huazhangmedia.com/html/img/mcsb_buttons.png",
+        "http://www.huazhangmedia.com/ui/banner/met_21_4/img/jiantou.png"
+    ]
+}
