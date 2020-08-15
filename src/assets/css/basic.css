@@ -21058,11 +21058,8 @@ body > .loader {
 
 
 .animation-scale-up {
-
     -webkit-animation-name: fade-scale-02;
-
     -o-animation-name: fade-scale-02;
-
     animation-name: fade-scale-02
 }
 

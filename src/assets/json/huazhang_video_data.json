@@ -4,13 +4,15 @@
             "video":"<iframe width='910' height='550' frameborder='0' src='http://go.plvideo.cn/front/video/preview?vid=25bee1e4dd56159d00268c493625dd16_2' allowFullScreen='true'></iframe>",
             "video_cover_pic":"https://huazhang-web.oss-cn-beijing.aliyuncs.com/3.png",
             "info":"北京国际车展快剪{1}    ",
-            "category":"企业宣传片"
+            "category":"企业宣传片",
+            "director":"孟德"
         },
         {
             "video":"<iframe width='910' height='550' frameborder='0' src='http://go.plvideo.cn/front/video/preview?vid=25bee1e4dd519719c0e30bf8588d2f1f_2' allowFullScreen='true'></iframe>",
             "video_cover_pic":"https://huazhang-web.oss-cn-beijing.aliyuncs.com/4.png",
             "info":"一汽水墨  ",
-            "category":" 企业宣传片"
+            "category":" 企业宣传片",
+            "director":"孟德"
         },
         {
             "video":"<iframe width='910' height='550' frameborder='0' src='http://go.plvideo.cn/front/video/preview?vid=25bee1e4ddbaf581db6f20273bdaa9ee_2' allowFullScreen='true'></iframe>",

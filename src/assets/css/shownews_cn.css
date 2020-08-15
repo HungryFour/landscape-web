@@ -66,8 +66,7 @@
 }
 
 .slick-list.dragging {
-    cursor: pointer;
-    cursor: hand
+    cursor: hand;
 }
 
 .slick-slider .slick-track,
@@ -748,20 +747,14 @@ button.swiper-pagination-bullet {
 }
 
 .pswp--zoom-allowed .pswp__img {
-    cursor: -webkit-zoom-in;
-    cursor: -moz-zoom-in;
     cursor: zoom-in
 }
 
 .pswp--zoomed-in .pswp__img {
-    cursor: -webkit-grab;
-    cursor: -moz-grab;
     cursor: grab
 }
 
 .pswp--dragging .pswp__img {
-    cursor: -webkit-grabbing;
-    cursor: -moz-grabbing;
     cursor: grabbing
 }
 
@@ -1352,7 +1345,6 @@ a.pswp__share--download:hover {
 }
 
 .pswp__ui {
-    -webkit-font-smoothing: auto;
     visibility: visible;
     opacity: 1;
     z-index: 1550
@@ -2590,7 +2582,6 @@ body.met-navfixed {
 
 .head_nav_met_21_11_1 .lh-moblie-nav li:not(:first-child) h2.active:before {
     background: #dc372b;
-    background:
 }
 
 .head_nav_met_21_11_1 .lh-moblie-nav li:not(:first-child) h2.active i {
@@ -5879,6 +5870,7 @@ body.met-navfixed {
         -webkit-transform: rotate(0, 0, 1, 45deg);
         -ms-transform: rotate(0, 0, 1, 45deg);
         transform: rotate(0, 0, 1, 45deg);
+        transform: rotate();
         opacity: 0
     }
 }

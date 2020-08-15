@@ -100,10 +100,22 @@
               <ul class="best-room_ul no-space imagesize index-product-list tab-pane active animation-scale-up row">
                   <li class="best-room_li col-lg-4 col-md-4 col-sm-12" v-for="(item, index) in video_list.slice(0,6)" :key="index">
                       <div class="best-room_img">
-                          <img :src="item.video_cover_pic" alt="" style="object-fit:cover">
-                          <div class="best-room_overlay" @click="preview(item.video)">
-                              <div class="overlay_icn">
-                                  <span></span>
+                          <img class="best-room_img_image" :src="item.video_cover_pic" alt="" style="object-fit:cover">
+                          <div class="best-room_overlay" style="display: flex; flex-direction: column; justify-content: center;"
+                               @click="preview(item.video)">
+                              <div style="margin-left: 1.5rem; font-size: 16px; color: white; font-weight: bold">
+                                  <div style="display: flex; flex-direction: row;">
+                                      <div style="color: #7CFC00">名称：</div>
+                                      {{item.info}}
+                                  </div>
+                                  <div style="display: flex; flex-direction: row;">
+                                      <div style="color: #7CFC00">导演：</div>
+                                      {{item.director ? item.director : '孟德'}}
+                                  </div>
+                                  <div style="display: flex; flex-direction: row;">
+                                      <div style="color: #7CFC00">制作：</div>
+                                      华章影视
+                                  </div>
                               </div>
                           </div>
                       </div>
@@ -273,7 +285,7 @@ export default {
     setTimeout(()=>{
       document.getElementById("video_data").play();
     },1000)
-    
+
   },
   methods: {
     preview(video) {
@@ -330,7 +342,9 @@ export default {
 }
 </script>
 <style scoped>
-@import "../assets/css/basic_1.css";
+
+@import "../assets/css/basic.css";
+
   .carousel {
     margin-top:80px !important;
   }
@@ -351,9 +365,23 @@ export default {
     line-clamp: 2;
     -webkit-box-orient: vertical;
   }
-  .product_list_met_36_7_41 .best-room_img img {
-    height:150px;
+
+  .best-room_img {
+      overflow: hidden;
   }
+
+.best-room_img img {
+      height:200px;
+      transition:all .4s;
+      -moz-transition:all .4s;
+      -webkit-transition:all .4s;
+      -o-transition:all .4s;
+  }
+
+.best-room_img img:hover {
+    transform: scale(1.2);
+}
+
   .product_h3 {
     cursor: pointer;
   }
@@ -396,6 +424,6 @@ export default {
     /deep/ iframe {
       width: 400px !important;
       height: 200px !important;
-    } 
+    }
   }
 </style>
