@@ -3965,9 +3965,6 @@ body.met-navfixed {
 
     height: 100%;
 
-    background: #dc372b;
-
-
     position: absolute;
 
     left: 0;
@@ -3980,10 +3977,10 @@ body.met-navfixed {
 
     opacity: 0;
 
-    visibility: hidden
+    visibility: hidden;
+
+    border-bottom: 2px solid #dc372b;
 }
-
-
 .head_nav_met_21_11_1 .lh-header-nav li span:before {
 
     content: '';
@@ -4046,7 +4043,7 @@ body.met-navfixed {
 .head_nav_met_21_11_1 .lh-header-nav li:hover h2 span,
 .head_nav_met_21_11_1 .lh-header-nav li.active h3 span {
 
-    color: #ffffff !important
+    /* color: #ffffff !important */
 }
 
 
@@ -4711,7 +4708,7 @@ body.met-navfixed {
 
 .head_nav_met_21_11_1 .lh-map-nav dl dt a:hover:after {
 
-    background: #dc372b;
+    background: yellow;
 
 
     width: 100%;
@@ -16127,8 +16124,15 @@ footer .met-langlist {
     width: 100%;
 
     height: auto
+
 }
 
+.product_list_met_36_7_41 .best-room_img:hover .best-room_img_image{
+    transform: scale(1.2);
+}
+.product_list_met_36_7_41 .best-room_img:hover .best-room_overlay{
+    opacity: 1;
+}
 
 .product_list_met_36_7_41 .best-room_img .best-room_overlay {
 
@@ -16183,7 +16187,6 @@ footer .met-langlist {
 .product_list_met_36_7_41 .best-room_img .best-room_overlay .overlay_icn span {
 
     color: #dc372b;
-
 
     display: block;
 
@@ -16291,10 +16294,10 @@ footer .met-langlist {
 }
 
 
-.product_list_met_36_7_41 .best-room_img .best-room_overlay:hover {
+/* .product_list_met_36_7_41 .best-room_img .best-room_overlay:hover {
 
     opacity: 1
-}
+} */
 
 
 .product_list_met_36_7_41 .best-room_img .best-room_overlay:hover .overlay_icn {
