@@ -31,10 +31,22 @@
               <ul class="best-room_ul no-space imagesize index-product-list tab-pane active animation-scale-up row">
                   <li class="best-room_li col-lg-4 col-md-4 col-sm-12" v-for="(item, index) in video_list" :key="index">
                       <div class="best-room_img">
-                          <img :src="item.video_cover_pic" alt="" style="object-fit:cover">
-                          <div class="best-room_overlay" @click="preview(item.video)">
-                              <div class="overlay_icn">
-                                  <span></span>
+                          <img class="best-room_img_image" :src="item.video_cover_pic" alt="" style="object-fit:cover">
+                          <div class="best-room_overlay" style="display: flex; flex-direction: column; justify-content: center;"
+                               @click="preview(item.video)">
+                              <div style="margin-left: 1.5rem; font-size: 16px; color: white; font-weight: bold">
+                                  <div style="display: flex; flex-direction: row;">
+                                      <div style="color: #7CFC00">名称：</div>
+                                      {{item.info}}
+                                  </div>
+                                  <div style="display: flex; flex-direction: row;">
+                                      <div style="color: #7CFC00">导演：</div>
+                                      {{item.director ? item.director : '孟德'}}
+                                  </div>
+                                  <div style="display: flex; flex-direction: row;">
+                                      <div style="color: #7CFC00">制作：</div>
+                                      华章影视
+                                  </div>
                               </div>
                           </div>
                       </div>
@@ -120,5 +132,16 @@ import list_data from '@/assets/json/huazhang_video_data.json'
       width: 400px !important;
       height: 200px !important;
     } 
+  }
+  .best-room_img{
+    overflow: hidden;
+  }
+ .best-room_img:hover .best-room_img_image{
+   
+    transition: 0.3s all linear;
+    transform: scale(1.2);
+  }
+  .best-room_img:hover .best-room_overlay{
+      opacity: 1;
   }
 </style>

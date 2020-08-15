@@ -89,7 +89,7 @@
                 企业宣传片/动画/TVC广告 /商业视频/病毒视频/访谈篇/纪录片/微电影
               </h5>
           </div>
-          <div class="title-main product_title">
+          <div class="title-main product_title" style="display:flex;justify-content:space-around;padding:0 80px;">
               <h3 class="product_h3" @click="to_tab(1)">[企业宣传片]</h3>
               <h3 class="product_h3" @click="to_tab(2)">[动画]</h3>
               <h3 class="product_h3" @click="to_tab(3)">[纪录片]</h3>
@@ -378,9 +378,9 @@ export default {
       -o-transition:all .4s;
   }
 
-.best-room_img img:hover {
+/* .best-room_img img:hover {
     transform: scale(1.2);
-}
+} */
 
   .product_h3 {
     cursor: pointer;
@@ -408,6 +408,7 @@ export default {
       transform:translateX(-50%) translateY(-50%);
   }
   .video_box {
+    height:800px;
     width:100%;
     position: relative;
     margin-top:80px;
@@ -426,4 +427,5 @@ export default {
       height: 200px !important;
     }
   }
+
 </style>

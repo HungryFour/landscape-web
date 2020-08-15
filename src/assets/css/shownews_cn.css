@@ -2087,7 +2087,8 @@ body.met-navfixed {
     display: block;
     width: 100%;
     height: 100%;
-    background: #dc372b;
+    /* background: #dc372b; */
+    border-bottom: 2px solid #dc372b;
 
     position: absolute;
     left: 0;
