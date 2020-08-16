@@ -80,21 +80,21 @@
     </section>
 
     <section class="product_list_met_36_7_41 met-index-body best-room" m-id="41" id="showlist">
-      <div class="container">
-          <div class="title-main">
+      <div class="container container_bg">
+          <!-- <div class="title-main">
               <h2 class="m-t-0 font-weight-300 mytitle" data-plugin="appear" data-animate="slide-top" data-repeat="false">
                 The iconic works of ourcompany
               </h2>
               <h5 class="m-t-0 font-weight-300 mytitle" data-plugin="appear" data-animate="slide-top" data-repeat="false" style="text-align: center;">
                 企业宣传片/动画/TVC广告 /商业视频/病毒视频/访谈篇/纪录片/微电影
               </h5>
-          </div>
+          </div> -->
           <div class="title-main product_title" style="display:flex;justify-content:space-around;padding:0 80px;">
-              <h3 class="product_h3" @click="to_tab(1)">[企业宣传片]</h3>
-              <h3 class="product_h3" @click="to_tab(2)">[动画]</h3>
-              <h3 class="product_h3" @click="to_tab(3)">[纪录片]</h3>
-              <h3 class="product_h3" @click="to_tab(4)">[TVC广告]</h3>
-              <h3 class="product_h3" @click="to_tab(5)">[商业视频]</h3>
+              <h3 class="product_h3" >[企业宣传片]</h3>
+              <h3 class="product_h3" >[动画]</h3>
+              <h3 class="product_h3" >[纪录片]</h3>
+              <h3 class="product_h3" >[TVC广告]</h3>
+              <h3 class="product_h3" >[商业视频]</h3>
           </div>
           <div class="best-room-carousel">
               <ul class="best-room_ul no-space imagesize index-product-list tab-pane active animation-scale-up row">
@@ -105,15 +105,15 @@
                                @click="preview(item.video)">
                               <div style="margin-left: 1.5rem; font-size: 16px; color: white; font-weight: bold">
                                   <div style="display: flex; flex-direction: row;">
-                                      <div style="color: #7CFC00">名称：</div>
+                                      <div style="color: #33FF33">名称：</div>
                                       {{item.info}}
                                   </div>
                                   <div style="display: flex; flex-direction: row;">
-                                      <div style="color: #7CFC00">导演：</div>
+                                      <div style="color: #33FF33">导演：</div>
                                       {{item.director ? item.director : '孟德'}}
                                   </div>
                                   <div style="display: flex; flex-direction: row;">
-                                      <div style="color: #7CFC00">制作：</div>
+                                      <div style="color: #33FF33">制作：</div>
                                       华章影视
                                   </div>
                               </div>
@@ -204,7 +204,7 @@
       </div>
     </section>
 
-    <div class="news_list">
+    <!-- <div class="news_list">
       <div class="container">
           <div class="row">
               <div class="news_detail col-lg-4 col-md-6 col-sm-12" v-for="(item, index) in news_list.slice(0,3)" :key="index" @click="to_detail(item)">
@@ -215,8 +215,49 @@
               </div>
           </div>
       </div>
-    </div>
+    </div> -->
 
+    <div class="new_list">
+      <div class="new_list_item">
+        <div class="new_list_item_div">
+          <div class="new_list_item_image" style="background-image: url(//17855688.s61i.faiusr.com/4/AD0IyOnBCBAEGAAgxMDA3gUo2dqgqQUwvAU4sAQ.png);"></div>
+        </div>
+        <div class="new_list_item_title">构建娱产业融合</div>
+        <div class="new_list_item_time">2020-8-16</div>
+        <div class="new_list_item_content">《白皮书》显示，2017年泛娱乐核心产业产值约为5484亿元，同比增长32%，预计占数字经济的比重将会超过1/5，...</div>
+        <div class="new_list_item_icon">首页新闻</div>
+      </div>
+      
+      <div class="new_list_item">
+        <div class="new_list_item_div">
+          <div class="new_list_item_image" style="background-image: url(//17855688.s61i.faiusr.com/4/AD0IyOnBCBAEGAAgw8DA3gUo6oKgugUwvAU4sAQ.png);"></div>
+        </div>
+        <div class="new_list_item_title">中国电视剧市场发展特征</div>
+        <div class="new_list_item_time">2020-8-15</div>
+        <div class="new_list_item_content">随着赴美留学的学生越来越多，学生无法完成学业的情况也时有发生。那么 想要顺利完成学业， 哪些坏习惯必须彻底甩掉呢？...</div>
+        <div class="new_list_item_icon">首页新闻</div>
+      </div>
+      
+      <div class="new_list_item">
+        <div class="new_list_item_div">
+          <div class="new_list_item_image" style="background-image: url(//17855688.s61i.faiusr.com/4/AD0IyOnBCBAEGAAgwsDA3gUou_iP_QcwvAU4sAQ.png);"></div>
+        </div>
+        <div class="new_list_item_title">全国巡展不一样的科技感</div>
+        <div class="new_list_item_time">2020-8-14</div>
+        <div class="new_list_item_content">活动策划是提高市场占有率的有效行为，一份可执行、可操作、创意突出的活动策划案，可有效提升企业的知名度及品牌美誉度。...</div>
+        <div class="new_list_item_icon">首页新闻</div>
+      </div>
+      
+      <div class="new_list_item">
+        <div class="new_list_item_div">
+          <div class="new_list_item_image" style="    background-image: url(//17855688.s61i.faiusr.com/4/AD0IyOnBCBAEGAAgxMDA3gUos6rh9QQwvAU4sAQ.png);"></div>
+        </div>
+        <div class="new_list_item_title">电影市场规模分析</div>
+        <div class="new_list_item_time">2020-8-13</div>
+        <div class="new_list_item_content">去年2015年全国电影总票房为440.69亿元，比2014年增长48.7％，创下“十二五”以来较高年度增幅，同时是...</div>
+        <div class="new_list_item_icon">首页新闻</div>
+      </div>
+    </div>
     <div class="pop" v-if="pop_close">
         <div class="close_btn" @click="pop_close = false">关闭</div>
         <div class="row">
@@ -372,6 +413,7 @@ export default {
 
 .best-room_img img {
       height:200px;
+      width: 355px;
       transition:all .4s;
       -moz-transition:all .4s;
       -webkit-transition:all .4s;
@@ -411,7 +453,7 @@ export default {
     height:800px;
     width:100%;
     position: relative;
-    margin-top:80px;
+    margin-top:70px;
   }
   .video_img {
     width:100%;
@@ -428,4 +470,96 @@ export default {
     }
   }
 
+  .container_bg{
+    background: url("./../assets/images/container_bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 800px;
+  }
+
+  .product_title{
+    font-family: MFShangYa_Noncommercial;
+    margin-top: 130px;
+  }
+
+  .new_list{
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+  }
+  .new_list_item{
+    margin: 30px;
+    width:362px;
+    height:386px;
+    position: relative;
+    padding: 10px 0;
+  }
+  .new_list_item_div{
+    width:326px;
+    height:148px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .new_list_item_image{
+    width: 100%;
+    height: 100%;
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .new_list_item_title{
+    width:326px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px auto 0;
+    text-align: left;
+    color: #333;
+    line-height: 24px;
+  }
+  .new_list_item_time{
+    width:326px;
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: left;
+    color: #999;
+  }
+  .new_list_item_content{
+    width:326px;
+    
+    margin: 18px auto 0;
+    text-align: left;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.7;
+  }
+  .new_list_item_icon{
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left:20px;
+    height: 26px;
+    line-height: 26px;
+    max-width: 100%;
+    padding: 0 8px;
+    border: 1px solid #e5e5e5;
+    
+    
+    border-radius: 5px;
+    color: #999;
+    font-size: 12px;
+    word-break: keep-all;
+    overflow: hidden;
+    z-index: 2;
+  }
+  .new_list_item:hover{
+    transition: all .4s ease-out;
+    box-shadow: 0 0 4px gray;
+  }
+  .new_list_item:hover .new_list_item_image{
+    transform: scale(1.2);
+    transition: all .4s ease-out;
+  }
+  .new_list_item:hover .new_list_item_title{
+    color:rgb(65, 119, 219);
+  }
 </style>

@@ -47,7 +47,7 @@
                         </div>
                         <div class="ad-zt">
                             <div class="col-sm-12 col-xs-12  appear-no-repeat" :class="[index%2 === 0 ? 'animation-slide-left50': 'animation-slide-right50']" data-plugin="appear" :data-animate="index%2 === 0 ? 'slide-left50' : 'slide-right50'"
-                                data-repeat="false" v-for="(item, index) in list" :key="index">
+                                data-repeat="false" v-for="(item, index) in list" :key="index" ref="lightBtn">
                                 <div class="col-sm-6 col-xs-12 ad-zt-txt" :class="[index%2 === 0 ? 'pull-left' : 'pull-right']" style="height: 474px; line-height: 474px;">
                                     <h3 class="ad-zt-txt-02">{{item.name}}</h3>
                                 </div>
@@ -56,7 +56,7 @@
                                         <i class="icon fa-calendar" aria-hidden="true" style="font-size: 25px;"></i>
                                     </div>
                                 </div>
-                                <div class="col-sm-6 col-xs-12 ad-zt-img img_left" :class="[index%2 === 0 ? 'pull-left' : 'pull-right']">
+                                <div v-if="item.canSee" class="col-sm-6 col-xs-12 ad-zt-img img_left" :class="[ (index%2 === 0) ?'pull-left':'pull-right']">
                                     <div :class="[index%2 === 0 ? 'ml50' : 'mr50']">
                                         <img :src="item.avatar" alt="Kate" class="img-responsive" style="max-width:100%;">
                                         <p>{{item.name}}</p>
@@ -98,9 +98,22 @@ import list from '@/assets/json/huazhang_director.json'
                 list: list
             }
         },
-        mounted() {
+        mounted(){
+            window.addEventListener('scroll', this.getScroll);
+        },
+        destroyed(){
+            window.removeEventListener('scroll', this.getScroll);
         },
         methods: {
+            getScroll(){
+                for(let listIndex in this.list) {
+                    if(this.$refs.lightBtn[listIndex].getBoundingClientRect().top < 500){
+                        this.list[listIndex].canSee = true;
+                        
+                    }
+                }
+                console.log(this.list)
+            }
         }
     }
 </script>
@@ -110,7 +123,7 @@ import list from '@/assets/json/huazhang_director.json'
 @import "../assets/css/show_cn.css";
 @import "../assets/css/news_cn.css";
   .carousel {
-    margin-top:80px !important;
+    margin-top:70px !important;
   }
   .show_item {
       text-align: left !important;
@@ -120,5 +133,46 @@ import list from '@/assets/json/huazhang_director.json'
   }
   .ml50 {
       margin-left: 50px;
+  }
+    .pull-right{
+        animation-fill-mode: none;
+        animation-name: getoutRight;
+        animation-duration: 0.6s;
+        animation-timing-function: ease-out;
+    }
+
+    @keyframes getoutRight{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(50%,0,0);
+        transform: translate3d(50%,0,0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+  }
+
+    .pull-left{
+        animation-fill-mode: none;
+        animation-name: getoutRight;
+        animation-duration: 0.6s;
+        animation-timing-function: ease-out;
+    }
+
+    @keyframes getoutRight{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-50%,0,0);
+        transform: translate3d(-50%,0,0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
   }
 </style>

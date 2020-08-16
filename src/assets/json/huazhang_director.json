@@ -4,27 +4,31 @@
         "title1":"国际制片人",
         "title2":"华章影视创始人 视觉语言缔造者",
         "case":"《五菱宏光秋名山》《中国汽车行》《NIKE中国行》《行走的亚马逊》《富士通广告》等等",
-        "avatar":"https://huazhang-web.oss-cn-beijing.aliyuncs.com/fanduofang_avatar.png"
+        "avatar":"https://huazhang-web.oss-cn-beijing.aliyuncs.com/fanduofang_avatar.png",
+        "canSee" : false
     },
     {
         "name":"孟德",
         "title1":"华章影视导演",
         "title2":"华章影视创始人",
         "case":"《日本电装》《最美国行人》《中国影像方志》《福特节油赛》《富士通广告》等等",
-        "avatar":"https://huazhang-web.oss-cn-beijing.aliyuncs.com/mengde_avatar.png"
+        "avatar":"https://huazhang-web.oss-cn-beijing.aliyuncs.com/mengde_avatar.png",
+        "canSee" : false
     },
     {
         "name":"仁德",
         "title1":"华章影视导演",
         "title2":"华章影视核心人员",
         "case":"《中国汽车行》《最美中国》《仁》《真相大白》《芝华士家具》等等",
-        "avatar":"https://huazhang-web.oss-cn-beijing.aliyuncs.com/likun_avatar.png"
+        "avatar":"https://huazhang-web.oss-cn-beijing.aliyuncs.com/likun_avatar.png",
+        "canSee" : false
     },
     {
         "name":"马尧",
         "title1":"华章影视视觉指导",
         "title2":"华章影视核心骨干",
         "case":"《家有家年味》《格斗者》《中国影像方志》《奔驰天下》《临空经济区》《最美国行人》《大牌驾到》《北京汽车展》等等",
-        "avatar":"https://huazhang-web.oss-cn-beijing.aliyuncs.com/mayao_avatar.png"
+        "avatar":"https://huazhang-web.oss-cn-beijing.aliyuncs.com/mayao_avatar.png",
+        "canSee" : false
     }
 ]
