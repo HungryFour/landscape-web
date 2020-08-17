@@ -14,7 +14,7 @@
                             <ul class="lh-header-nav lh-flex"> 
                                 <li :class="[currentPath === item.url ? 'active' : '']" v-for="(item,index) in nav_list" :key="index" @click="change_nav(index)">
                                     <router-link :to="item.url">
-                                        <h2 style="padding-top: 30px;font-size:18px;font-weight:400;font-family:'STFangsong'">{{item.name}}</h2>
+                                        <h2 style="padding-top: 25px;font-size:18px;font-weight:400;font-family:'STFangsong'">{{item.name}}</h2>
                                         <span></span>
                                     </router-link>
                                 </li>

@@ -3575,7 +3575,6 @@ body.met-navfixed {
 .head_nav_met_21_11_1 .lh-logo {
     position: absolute;
     left: 5.7vw;
-    top: 5px
 }
 
 .head_nav_met_21_11_1 .lh-logo img {
@@ -10920,7 +10919,8 @@ footer .met-langlist {
 }
 
 .show_met_21_6_12 div {
-    max-width: 100%
+    max-width: 90%;
+    margin:0 auto;
 }
 
 .show_met_21_6_12 .show_item > div {

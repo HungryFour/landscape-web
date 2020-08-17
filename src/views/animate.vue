@@ -70,7 +70,7 @@ import list_data from '@/assets/json/huazhang_video_data.json'
 
 <style scoped>
 .carousel {
-    margin-top:80px !important;
+    margin-top:70px !important;
 }
 .product_list_met_36_7_41 .best-room_img img {
     height:150px;

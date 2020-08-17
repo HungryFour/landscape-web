@@ -92,7 +92,7 @@ import list from '@/assets/json/huazhang_article.json'
 @import "../assets/css/news_cn.css";
 @import "../assets/css/basic.css";
 .carousel {
-    margin-top:80px !important;
+    margin-top:70px !important;
 }
 .news-jdf {
     text-align: left;

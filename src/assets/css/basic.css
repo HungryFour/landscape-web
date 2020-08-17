@@ -40,6 +40,11 @@ html {
     -webkit-tap-highlight-color: transparent
 }
 
+@font-face {
+    font-family: MFShangYa_Noncommercial;
+    src: url("../font/MFShangYa_Noncommercial-Regular.otf")
+}
+
 
 article,
 aside,

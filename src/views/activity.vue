@@ -114,7 +114,7 @@ import list from '@/assets/json/huazhang_video_data.json'
 @import "../assets/css/basic.css";
 @import "../assets/css/index_cn.css";
 .carousel {
-    margin-top:80px !important;
+    margin-top:70px !important;
 }
 .mt_10 {
     margin-bottom:20px;

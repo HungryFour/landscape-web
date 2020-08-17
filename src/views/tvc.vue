@@ -12,21 +12,21 @@
 
     <section class="product_list_met_36_7_41 met-index-body best-room" m-id="41" id="showlist">
       <div class="container">
-          <!-- <div class="title-main">
-              <h2 class="m-t-0 font-weight-300 mytitle" data-plugin="appear" data-animate="slide-top" data-repeat="false" style="color:red;font-weight:400 !important;">
-                作品案例
+          <div class="title-main">
+              <h2 class="m-t-0 font-weight-300 mytitle" data-plugin="appear" data-animate="slide-top" data-repeat="false">
+                The iconic works of ourcompany
               </h2>
-              <h5 class="m-t-0 font-weight-300 mytitle" data-plugin="appear" data-animate="slide-top" data-repeat="false" style="text-align: center;font-weight:500 !important;">
-                The iconic works of our company
+              <h5 class="m-t-0 font-weight-300 mytitle" data-plugin="appear" data-animate="slide-top" data-repeat="false" style="text-align: center;">
+                企业宣传片/动画/TVC广告 /商业视频/病毒视频/访谈篇/纪录片/微电影
               </h5>
-          </div> -->
-          <!-- <div class="title-main product_title">
+          </div>
+          <div class="title-main product_title" style="display:flex;justify-content:space-around;padding:0 80px;">
               <h3 class="product_h3">[企业宣传片]</h3>
               <h3 class="product_h3">[动画]</h3>
               <h3 class="product_h3">[纪录片]</h3>
               <h3 class="product_h3">[TVC广告]</h3>
               <h3 class="product_h3">[商业视频]</h3>
-          </div> -->
+          </div>
           <div class="best-room-carousel">
               <ul class="best-room_ul no-space imagesize index-product-list tab-pane active animation-scale-up row">
                   <li class="best-room_li col-lg-4 col-md-4 col-sm-12" v-for="(item, index) in video_list" :key="index">
@@ -36,15 +36,15 @@
                                @click="preview(item.video)">
                               <div style="margin-left: 1.5rem; font-size: 16px; color: white; font-weight: bold">
                                   <div style="display: flex; flex-direction: row;">
-                                      <div style="color: #7CFC00">名称：</div>
+                                      <div style="color: #33FF33">名称：</div>
                                       {{item.info}}
                                   </div>
                                   <div style="display: flex; flex-direction: row;">
-                                      <div style="color: #7CFC00">导演：</div>
+                                      <div style="color: #33FF33">导演：</div>
                                       {{item.director ? item.director : '孟德'}}
                                   </div>
                                   <div style="display: flex; flex-direction: row;">
-                                      <div style="color: #7CFC00">制作：</div>
+                                      <div style="color: #33FF33">制作：</div>
                                       华章影视
                                   </div>
                               </div>
@@ -97,10 +97,11 @@ import list_data from '@/assets/json/huazhang_video_data.json'
 
 <style scoped>
   .carousel {
-    margin-top:80px !important;
+    margin-top:70px !important;
   }
   .product_list_met_36_7_41 .best-room_img img {
-    height:150px;
+      height:200px;
+      width: 355px;
   }
   .product_h3 {
     cursor: pointer;
@@ -143,5 +144,15 @@ import list_data from '@/assets/json/huazhang_video_data.json'
   }
   .best-room_img:hover .best-room_overlay{
       opacity: 1;
+  }
+  
+  .container_bg{
+    background: url("./../assets/images/container_bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 800px;
+  }
+  .product_title{
+    font-family: MFShangYa_Noncommercial;
   }
 </style>
